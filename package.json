@@ -16,6 +16,8 @@
     "hardhat": "^2.9.9"
   },
   "dependencies": {
+    "@maticnetwork/maticjs": "^3.4.0-beta.0",
+    "@maticnetwork/maticjs-ethers": "^1.0.2",
     "@openzeppelin/contracts": "^4.6.0"
   }
 }
