@@ -69,4 +69,12 @@ const posClient = new POSClient();
   //   console.log(err);
   // }
 
+  try{
+    const isDeposited = await posClient.isDeposited('0x6190693f18802dc6b2c1a1471e0aeff2d34a4ce4cfc92bced437fc86f4b1c786');
+    console.log(isDeposited);
+  }
+  catch(err){
+    console.log(err);
+  }
+
 })();
